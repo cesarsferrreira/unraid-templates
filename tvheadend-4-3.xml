@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>tvheadend</Name>
+  <Repository>linuxserver/tvheadend:latest</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/tvheadend</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:9981]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tvheadend-logo.>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1651682016</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="9981" Default="9981" Mode="tcp" Description="WebUI" Type="Port" Display="always" >
+  <Config Name="TZ=Europe/London" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always">
+  <Config Name="Port: 9982" Target="9982" Default="9982" Mode="tcp" Description="" Type="Port" Display="always" >
+  <Config Name="Path: Recordings" Target="/recordings" Default="" Mode="rw" Description="" Type="Path" Display=">
+  <Config Name="config" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Requir>
+</Container>
